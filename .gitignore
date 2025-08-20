@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+# venv/
+# env/
+# .venv/
+
+# IDE-specific
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flask instance folder (if you use it for config)
+instance/
+
+# PyCharm
+*.iml
