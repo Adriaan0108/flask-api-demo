@@ -67,3 +67,8 @@ class Bookmark(db.Model):
             "updated_at": self.updated_at,
             "user_id": self.user_id
         }
+
+    def update(self, **kwargs):
+        for key, value in kwargs.items():
+            if hasattr(self, key):
+                setattr(self, key, value)
